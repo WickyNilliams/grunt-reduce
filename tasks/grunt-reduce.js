@@ -74,7 +74,6 @@ module.exports = function (grunt) {
             .buildProduction({
                 recursive: true,
                 canonicalUrl: canonicalUrl,
-                browsers: config.browsers,
                 less: config.less,
                 scss: config.scss,
                 optimizeImages: config.optimizeImages,
