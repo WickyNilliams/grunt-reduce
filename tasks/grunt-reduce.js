@@ -2,8 +2,9 @@
 
 /*
  * grunt-reduce
- * https://github.com/munter/grunt-reduce
+ * https://github.com/WickyNilliams/grunt-reduce
  *
+ * Copyright (c) 2015 Nick Williams
  * Copyright (c) 2012 Peter Müller
  * Licensed under the MIT license.
  */
@@ -28,7 +29,6 @@ var defaults = {
     asyncScripts : false,
     loadAssets : [
         '*.html',
-        '.htaccess',
         '*.txt',
         '*.ico'
     ],
